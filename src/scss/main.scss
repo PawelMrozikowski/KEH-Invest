@@ -1,13 +1,21 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+//@import "../scss/modules/hello.scss";
 
 body {
-  background: $wtf;
+  background: $test;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.anim {
+  max-width: 200px;
+  max-height: 200px;
+  background: tomato;
+  color: aquamarine;
+  border: blueviolet;
 }
